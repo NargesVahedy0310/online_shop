@@ -41,8 +41,7 @@ INSTALLED_APPS = [
     'rest_framework',
     'django_filters',
     'ticket',
-    'rest_framework.authtoken',
-]
+    ]
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',

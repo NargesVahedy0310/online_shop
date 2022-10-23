@@ -16,3 +16,9 @@ class AdminListView(generics.ListAPIView):
     permission_classes = [permissions.IsAdminUser]
     queryset = User.objects.all()
     serializer_class = UserSerializer
+
+
+class AdminDetaile(generics.RetrieveAPIView):
+    permission_classes = [permissions.IsAdminUser]
+    queryset = User.objects.all()
+    serializer_class = UserSerializer

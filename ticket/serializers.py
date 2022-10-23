@@ -8,7 +8,7 @@ class UserSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = User
-        fields = ['id', 'title', 'username','description',  'email', 'created_time', 'categories']
+        fields = ['id', 'title', 'username', 'description',  'email', 'created_time', 'categories']
 
 class AdminSerializers(serializers.ModelSerializer):
     users = UserSerializer
