@@ -40,6 +40,8 @@ INSTALLED_APPS = [
     'product',
     'rest_framework',
     'django_filters',
+    'ticket',
+    'rest_framework.authtoken',
 ]
 
 MIDDLEWARE = [
